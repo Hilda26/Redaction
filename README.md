@@ -64,3 +64,16 @@ Current local result:
 - GenVM lint: passed.
 - Direct tests: 13 passed.
 
+## Deployment
+
+- StudioNet contract address: `0x8E4876D04379A4a2D30fd045793f851A9924A152`
+- Deployment transaction: `0x1db634f8dc8572ad1d3c78b1558f4f75695e6141c6436847819fe3e19abb7edc`
+- Deployment receipt: `FINALIZED`, `MAJORITY_AGREE`, leader execution `SUCCESS`,
+  `stderr=""`, `raw_error=null`.
+- `genlayer schema 0x8E4876D04379A4a2D30fd045793f851A9924A152` succeeded.
+- `genlayer code 0x8E4876D04379A4a2D30fd045793f851A9924A152` returned the
+  deployed source.
+- `genlayer call 0x8E4876D04379A4a2D30fd045793f851A9924A152 bounty_count`
+  returned `0`.
+- `genlayer call 0x8E4876D04379A4a2D30fd045793f851A9924A152 submission_count_total`
+  returned `0`.
